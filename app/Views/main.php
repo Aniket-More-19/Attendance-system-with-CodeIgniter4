@@ -89,6 +89,11 @@
         </div>
     </section>
 
+    <section class="copyright-container">
+        <img src="<?php echo base_url('images/copyright.png') ?>" alt="copyright image">
+        <p>powered by Edofox</p>
+    </section>
+
     <section class="performance-and-attendance">
         <div class="parent-container">
             <div class="container">

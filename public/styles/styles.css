@@ -147,6 +147,23 @@
   color: #000;
 }
 
+.copyright-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.3rem;
+}
+
+.copyright-container img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.copyright-container p {
+  margin-top: 0.7rem;
+}
+
 /* performance and attendance tabs */
 
 .performance-and-attendance {
@@ -211,6 +228,10 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+  }
+
+  .copyright-container p {
+    margin-top: 0.9rem;
   }
 }
 
