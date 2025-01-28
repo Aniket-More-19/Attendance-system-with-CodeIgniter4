@@ -14,12 +14,12 @@
   align-items: center;
   padding: 1rem;
   column-gap: 2rem;
-  background-color: rgb(110, 204, 255);
+  background-color: #ff8a5c;
 }
 
 .inputs {
   min-width: 20rem;
-  max-width: 20rem;
+  max-width: 30rem;
 }
 
 .inputs input {
@@ -46,7 +46,7 @@
   border: 0.1rem solid white;
   border-radius: 1rem;
   padding: 0.7rem;
-  background-color: #ececec;
+  background-color: #fff0ea;
 }
 
 .stud-image {
@@ -81,14 +81,14 @@
 }
 
 .stud-info span {
-  color: #007bff;
+  color: #ff5110;
 }
 
 /* remarks */
 .remarks-container {
   border: 0.1rem solid white;
   border-radius: 1rem;
-  background-color: #ececec;
+  background-color: #fff0ea;
 
   padding: 1rem;
   max-height: 15rem;
@@ -108,7 +108,7 @@
 
 .verticle-line {
   width: 0.7rem;
-  background-color: #37b9ff;
+  background-color: #ff5a1c;
   height: 100%;
   position: absolute;
 }
@@ -120,7 +120,7 @@
   background-color: black;
   position: relative;
   box-sizing: border-box;
-  border: 0.5rem solid #37b9ff;
+  border: 0.5rem solid #ff5a1c;
   top: 15%;
   transform: translateY(-50%);
   left: calc(0.1rem - 0.75rem);
@@ -137,7 +137,7 @@
 
 .timeline-content .name {
   font-weight: bold;
-  color: #007bff;
+  color: #ff5110;
   margin: 0;
 }
 
@@ -152,7 +152,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  column-gap: 0.3rem;
+  column-gap: 0.5rem;
 }
 
 .copyright-container img {
@@ -162,6 +162,7 @@
 
 .copyright-container p {
   margin-top: 0.7rem;
+  color: #000;
 }
 
 /* performance and attendance tabs */
@@ -174,7 +175,7 @@
 
 .parent-container {
   width: 100%;
-  background-color: #ececec;
+  background-color: #fff0ea;
   padding: 1rem;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
@@ -221,6 +222,20 @@
 
 .nav-link {
   font-size: 0.9rem;
+}
+
+.nav.nav-underline .nav-link.active {
+  color: #000;
+  border-bottom: 0.25rem solid #ff5110;
+}
+
+.nav.nav-underline .nav-link {
+  color: #000;
+}
+
+.nav.nav-underline .nav-link:hover {
+  border-bottom: 0.25rem solid #ff5110;
+  color: #000;
 }
 
 @media screen and (min-width: 48rem) {

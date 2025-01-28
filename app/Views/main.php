@@ -90,8 +90,11 @@
     </section>
 
     <section class="copyright-container">
-        <img src="<?php echo base_url('images/copyright.png') ?>" alt="copyright image">
+
+        <img src="<?php echo base_url('images/edofox-logo.png') ?>" alt="edofox logo">
         <p>powered by Edofox</p>
+
+
     </section>
 
     <section class="performance-and-attendance">
