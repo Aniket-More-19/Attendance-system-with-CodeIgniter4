@@ -43,56 +43,63 @@
         </div>
 
         <div class="remarks-container">
-            <div class="timeline-container">
-                <div class="timeline">
-                    <div class="verticle-line"></div>
-                    <div class="point"></div>
+
+            <div class="all-timelines">
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <div class="verticle-line"></div>
+                        <div class="point"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <p class="name">Prashant Kulkarni</p>
+                        <p class="status">DONE</p>
+                    </div>
                 </div>
-                <div class="timeline-content">
-                    <p class="name">Prashant Kulkarni</p>
-                    <p class="status">DONE</p>
+
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <div class="verticle-line"></div>
+                        <div class="point"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <p class="name">Prashant Kulkarni</p>
+                        <p class="status">DONE</p>
+                    </div>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <div class="verticle-line"></div>
+                        <div class="point"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <p class="name">Prashant Kulkarni</p>
+                        <p class="status">DONE</p>
+                    </div>
+                </div>
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <div class="verticle-line"></div>
+                        <div class="point"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <p class="name">Prashant Kulkarni</p>
+                        <p class="status">DONE</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="timeline-container">
-                <div class="timeline">
-                    <div class="verticle-line"></div>
-                    <div class="point"></div>
-                </div>
-                <div class="timeline-content">
-                    <p class="name">Prashant Kulkarni</p>
-                    <p class="status">DONE</p>
-                </div>
+            <div class="add-remark">
+                <img src="<?php echo base_url('images/add-icon.png') ?>" alt="add image">
+                <h5>Add Remark</h5>
             </div>
-
-            <div class="timeline-container">
-                <div class="timeline">
-                    <div class="verticle-line"></div>
-                    <div class="point"></div>
-                </div>
-                <div class="timeline-content">
-                    <p class="name">Prashant Kulkarni</p>
-                    <p class="status">DONE</p>
-                </div>
-            </div>
-            <div class="timeline-container">
-                <div class="timeline">
-                    <div class="verticle-line"></div>
-                    <div class="point"></div>
-                </div>
-                <div class="timeline-content">
-                    <p class="name">Prashant Kulkarni</p>
-                    <p class="status">DONE</p>
-                </div>
-            </div>
-
         </div>
     </section>
 
     <section class="copyright-container">
 
         <img src="<?php echo base_url('images/edofox-logo.png') ?>" alt="edofox logo">
-        <p>powered by Edofox</p>
+        <p><b>powered by Edofox</b></p>
 
 
     </section>
